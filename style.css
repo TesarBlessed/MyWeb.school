@@ -1,0 +1,178 @@
+body {
+    background-image: url('https://cdn.glitch.global/44a739ea-4145-4806-870c-12f7ffffe47b/backdrop?v=1734604173719');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.three {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.three h1 {
+    border: 5px solid #070829;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    color: #FCF2E5;
+    background: #11113f;
+    font-size: 2.5em;
+    font-weight: normal;
+    padding: 10px 90px;
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+}
+
+    .three h1:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0;
+        bottom: -15px;
+        background: #070829;
+    }
+
+    .three h1:after {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 80%;
+        border-top: 10px solid #070829;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -25px;
+    }
+
+@media (max-width: 500px) {
+    .three h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 400px) {
+    .three h1 {
+        font-size: 1.5em;
+        padding: 10px 30px;
+    }
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 1.5;
+    margin: 1rem;
+    color: #212529;
+    background-color: #2a306b;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+    background: #11113f;
+    margin: 1rem;
+    padding: 1.5rem;
+    border: 5px solid #070829;
+    border-radius: 1.475rem;
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-nav > input[type="radio"] {
+    display: none;
+}
+
+.tab-content {
+    color: #c9cfff;
+    display: none;
+}
+
+#content-1:has(~ .tab-nav > #tab-btn-1:checked),
+#content-2:has(~ .tab-nav > #tab-btn-2:checked),
+#content-3:has(~ .tab-nav > #tab-btn-3:checked),
+#content-4:has(~ .tab-nav > #tab-btn-4:checked),
+#content-5:has(~ .tab-nav > #tab-btn-5:checked) {
+    display: block;
+}
+
+.tab-nav {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #2a306b;
+    margin-bottom: 1rem;
+    order: -1;
+}
+
+    .tab-nav > label {
+        display: block;
+        padding: 0.5rem 1rem;
+        color: #e0e3ff;
+        text-decoration: none;
+        background: 0 0;
+        border: 1px solid rgba(42, 48, 107, 1);
+        margin-bottom: -1px;
+        border-top-left-radius: 0.375rem;
+        border-top-right-radius: 0.375rem;
+        -webkit-appearance: button;
+        appearance: button;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }
+
+    .tab-nav > input[type="radio"]:checked + label {
+        color: #1827b5;
+        background-color: #c9cfff;
+        border-color: #dee2e6 #dee2e6 #e0e3ff;
+        cursor: default;
+    }
+
+#backgroun{
+    background-color: #ffffff;
+    border-radius:0.375rem
+ }
+#basa{
+    margin-top: 30px;
+}
+#png{
+ height: 100%;
+ width: 100%;
+ border-radius: 1em;
+ max-width: 500px;
+ max-height: 500px;
+ display: block;
+ margin: auto;
+}
+#PngMimo{
+    height: 100%;
+    width: 100%;
+    border-radius: 1em;
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: auto; 
+}
+#text{
+    text-align: center;
+}
+
+#Видик{
+    width: 90%;
+    height: 90%;
+    max-width: 800px;
+    max-height: 800px;
+    display: block;
+    margin: auto;
+}
+
+#FOOD{
+    font-weight: bold;
+    text-align: center;
+}
